@@ -1,0 +1,2 @@
+# Online Bookstore Management API
+## This project is a RESTful API developed using Node.js, Express.js, and MongoDB for managing books in an online bookstore. The API allows users to add, view, update, and delete books. It also provides search functionality by author and genre, pagination for handling large datasets, request logging through middleware, and global error handling. MongoDB Atlas is used as the database, while Postman is used for testing the API endpoints.
