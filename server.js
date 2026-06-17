@@ -46,7 +46,9 @@ app.use((err, req, res, next) => {
 
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server Running On Port ${PORT}`);
-});
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => {
+//   console.log(`Server Running On Port ${PORT}`);
+// });
+// For Vercel
+module.exports = app;
